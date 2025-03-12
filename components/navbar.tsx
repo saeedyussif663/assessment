@@ -11,7 +11,7 @@ export default function Navbar({ bg }: { bg?: string }) {
           Features
           <ChevronDown size={18} color="#63C57B" className="mt-1" />
         </Link>
-        <Link href="#">Press</Link>
+        <Link href="/press">Press</Link>
         <Link href="#" className="flex items-center gap-1.5">
           Company
           <ChevronDown size={18} color="#63C57B" className="mt-1" />

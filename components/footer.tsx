@@ -90,7 +90,7 @@ export default function Footer() {
               type="email"
               name="email"
               id="email"
-              className="bg-[#233375] rounded-s-lg p-3 text-center text-[#6E80A3] text-sm focus:outline-none"
+              className="bg-[#233375] rounded-e-lg md:rounded-e-none md:rounded-s-lg p-3 text-center text-[#6E80A3] text-sm focus:outline-none"
               placeholder="Enter your email address"
             />
 

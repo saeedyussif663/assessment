@@ -25,10 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${pushPenny.className} antialiased pb-10 scroll-smooth`}
-      >
+    <html lang="en" className="scroll-smooth">
+      <body className={`${pushPenny.className} antialiased pb-10`}>
         {children}
         <Footer />
       </body>
