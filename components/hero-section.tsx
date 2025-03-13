@@ -4,50 +4,53 @@ import Link from 'next/link';
 
 export default function HeroSection() {
   return (
-    <section className="mt-8 hidden md:flex flex-col items-center">
-      <div className="w-[298px] h-[512px] bg-[#233375] rounded-[28px] border-5 border-[#63C57B] shadow-custom"></div>
+    <section className="mt-8 hidden md:flex flex-col">
+      <div className="flex flex-col items-center justify-center">
+        <div className="w-[298px] h-[512px] bg-[#233375] rounded-[28px] border-5 border-[#63C57B] shadow-custom"></div>
 
-      <article>
-        <div className="mt-10 flex justify-between items-end mx-6">
-          <h1 className="text-[64px] font-medium text-[#0D2C65] w-[55%]">
-            Multi-currency <br /> accounts for Africans
-          </h1>
-          <p className="text-lg text-[#233375] w-[40%] mb-6">
-            Transact at home and abroad - create, send, hold and receive money
-            in African and foreign currencies. Send money to and from Africa,
-            seamlessly.
-          </p>
-        </div>
-
-        <div className="mt-5 w-full border-b border-[#6E80A3]"></div>
-
-        <div className="mx-6 mt-4 flex justify-between items-center">
-          <div className="flex items-baseline gap-5">
-            <p className="text-[#6E80A3]">News & Release update</p>
-
-            <div>
-              <h5 className="text-[#8C8C8C]">
-                June 20, 2022 —{' '}
-                <span className="text-[#2668EC]">
-                  Bomba now has a dollar wallet, activate your account
-                </span>
-              </h5>
-              <h5 className="text-[#8C8C8C]">
-                June 01, 2022 —{' '}
-                <span className="text-[#2668EC]">
-                  Top 10 Summer Vacation Places In 2022
-                </span>
-              </h5>
-            </div>
+        <article>
+          <div className="mt-10 flex justify-between items-end mx-6">
+            <h1 className="text-[64px] font-medium text-[#0D2C65] w-[55%]">
+              Multi-currency <br /> accounts for Africans
+            </h1>
+            <p className="text-lg text-[#233375] w-[40%] mb-6">
+              Transact at home and abroad - create, send, hold and receive money
+              in African and foreign currencies. Send money to and from Africa,
+              seamlessly.
+            </p>
           </div>
-          <Link
-            href="#send_money"
-            className="flex items-center gap-2 text-2xl text-[#0D2C65]"
-          >
-            Scroll Down <span className="text-[#63C57B]">↓</span>
-          </Link>
+        </article>
+      </div>
+
+      <div className="mt-5 w-full border-b border-[#6E80A3]"></div>
+
+      <div className="mx-6 mt-4 flex justify-between items-center">
+        <div className="flex items-baseline gap-5">
+          <p className="text-[#6E80A3]">News & Release update</p>
+
+          <div>
+            <h5 className="text-[#8C8C8C]">
+              June 20, 2022 —{' '}
+              <span className="text-[#2668EC]">
+                Bomba now has a dollar wallet, activate your account
+              </span>
+            </h5>
+            <h5 className="text-[#8C8C8C]">
+              June 01, 2022 —{' '}
+              <span className="text-[#2668EC]">
+                Top 10 Summer Vacation Places In 2022
+              </span>
+            </h5>
+          </div>
         </div>
-      </article>
+
+        <Link
+          href="#send_money"
+          className="flex items-center gap-2 text-2xl text-[#0D2C65]"
+        >
+          Scroll Down <span className="text-[#63C57B]">↓</span>
+        </Link>
+      </div>
     </section>
   );
 }

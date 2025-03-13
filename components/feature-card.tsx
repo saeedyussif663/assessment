@@ -28,7 +28,7 @@ export default function Featurecard({
         hide === 'small' && 'hidden md:block'
       } ${
         hide === 'large' && 'block md:hidden'
-      }  h-[700px] relative w-full rounded-[10px]   md:w-[552px] pt-6 md:pt-[50px] px-4 md:px-7`}
+      }  h-[800px] relative w-full rounded-[10px] md:w-[552px] pt-6 md:pt-[50px] px-4 md:px-7`}
       style={{ backgroundColor: backgroundColor }}
     >
       {comingSoon && <img src="/coming-soon.png" alt="coming-soon" />}

@@ -20,7 +20,7 @@ export default function Features() {
         </p>
       </article>
 
-      <article className="mt-20 flex flex-row flex-wrap gap-6 justify-between 2xl:justify-center 2xl:gap-40 items-center">
+      <article className="mt-20 flex mx-auto max-w-screen-2xl flex-row flex-wrap gap-6 justify-between 2xl:justify-center 2xl:gap-40 items-center">
         <div className="flex flex-col gap-10">
           <Featurecard
             header="Swap"
